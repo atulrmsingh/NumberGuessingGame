@@ -10,7 +10,7 @@ public class NumberGuessingGame {
 			System.out.println("Press 2 : If your number is less than " + mid);
 			int input = userInput.nextInt();
 			if (input == 1) {
-				System.out.println("If your number is : " + mid + " Press 1 else Press 0 to continue.");
+				System.out.println("If your number is : " + mid + " Press 1, else Press 0 to continue.");
 				int num = userInput.nextInt();
 				if (num == 1) {
 					break;
