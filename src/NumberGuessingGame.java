@@ -6,11 +6,11 @@ public class NumberGuessingGame {
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Guess a number between 1 to 100");
 		while (true) {
-			System.out.println("Press 1 if your number is greater than or equal to: " + mid);
-			System.out.println("Press 2 if your number is less than : " + mid);
+			System.out.println("Press 1 : If your number is greater than or equal to " + mid);
+			System.out.println("Press 2 : If your number is less than " + mid);
 			int input = userInput.nextInt();
 			if (input == 1) {
-				System.out.println("Is your number is : " + mid + " Press 1");
+				System.out.println("Is your number is : " + mid + " Press 1 else Press 0 to continue.");
 				int num = userInput.nextInt();
 				if (num == 1) {
 					break;
@@ -25,7 +25,7 @@ public class NumberGuessingGame {
 
 			}
 		}
-		System.out.println("your number is :" + mid);
+		System.out.println("your number is : " + mid);
 
 	}
 }
